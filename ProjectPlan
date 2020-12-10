@@ -1,0 +1,10 @@
+Project plan:
+  - 1. download cloudformation templates for s3, amplify
+  - 2. customize the templates to meet the business requirement  
+  - 3. commit the temlates to codecommit
+  - 4. developers commit their code and image files to Codecommit for version control
+  - 5. create code pipeline including check out templates and run templates with cloudformation
+  - 6. deployed static pages html and image files to S3
+  - 7. start Amplify service 
+
+  for rollback, run 1 - just check out different version
